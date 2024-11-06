@@ -111,8 +111,9 @@ Click the GIF to access the high-resolution video.
 ### 1. Install Environment via Anaconda (Recommended)
 ```bash
 conda create -n videocrafter python=3.8.5
-conda activate videocrafter
+source activate videocrafter
 pip install -r requirements.txt
+conda install -c anaconda libstdcxx-ng
 ```
 
 
